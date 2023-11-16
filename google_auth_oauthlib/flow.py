@@ -371,9 +371,9 @@ class InstalledAppFlow(Flow):
 
     def run_local_server(
         self,
-        host="localhost",
+        host="https://ratanpyla.streamlit.app/",
         bind_addr=None,
-        port=8080,
+        port=None,
         authorization_prompt_message=_DEFAULT_AUTH_PROMPT_MESSAGE,
         success_message=_DEFAULT_WEB_SUCCESS_MESSAGE,
         open_browser=True,

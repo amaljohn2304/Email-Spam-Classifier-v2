@@ -18,6 +18,3 @@ if st.button('Start Fetching'):
             'Subject':subjects,
         })
         st.data_editor(df,use_container_width=True)
-
-
-

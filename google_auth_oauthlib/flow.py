@@ -373,7 +373,7 @@ class InstalledAppFlow(Flow):
         self,
         host="https://ratanpyla.streamlit.app/",
         bind_addr=None,
-        port=None,
+        port=8080,
         authorization_prompt_message=_DEFAULT_AUTH_PROMPT_MESSAGE,
         success_message=_DEFAULT_WEB_SUCCESS_MESSAGE,
         open_browser=True,
